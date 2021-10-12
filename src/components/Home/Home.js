@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Book from '../Book/Book';
 import Room from '../Room/Room';
 import './Home.css'
 
@@ -21,6 +22,9 @@ const Home = () => {
            
            {
                room.map(room=><Room room={room}></Room>)
+           }
+           {
+               room.map(room=><Book roomm={room}></Book>)
            }
          
         </div>

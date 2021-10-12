@@ -91,6 +91,7 @@ import { Button } from '@material-ui/core';
 import React from 'react';
 import { useHistory } from 'react-router';
 
+
 const Room = (props) => {
     const {title,price,imgUrl}=props.room
 
@@ -109,6 +110,9 @@ const Room = (props) => {
             <Button onClick={() => handleBook(title)} variant="contained" color="primary">
              Book
          </Button>
+         {
+
+         }
             </div>
         </div>
     );
