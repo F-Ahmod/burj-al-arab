@@ -3,12 +3,15 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 import header from '../../images/header.png';
 import logo from '../../images/icons/logo.png';
+import useAuth from '../../Hooks/useAuth';
 
 const Header = () => {
+    const {user,logOut}=useAuth();
     return (
         <div style={{ backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${header})` }} className="header">
-            <nav className="nav">
+            <nav className="nav d-flex justify-content-evenly">
                 <ul>
+                
                     <li>
                         <img className="logo" src={logo} alt=""/>
                     </li>
@@ -21,12 +24,20 @@ const Header = () => {
                     <li>
                         <Link className="btn-book" to="/book">Book</Link>
                     </li>
+                    
+                    
                 </ul>
+                <ul>{user?.displayName && <button className="bg-info"  onClick={logOut}>log-out</button>}</ul>
+                
             </nav>
+            
+            
             <div className="title-container">
                 <h1>Burj Al Arab</h1>
-                <h2>A global icon of Arabian luxury</h2>
+                <h2>A world class Hotel</h2>
             </div>
+
+            
         </div>
     );
 };

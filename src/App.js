@@ -9,10 +9,14 @@ import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import Book from './components/Book/Book';
 import Header from './components/Header/Header';
+import AuthProvider from './components/contex/AuthProvider';
+import Privet from './components/Privet/Privet';
+
 
 function App() {
   return (
-      <Router>
+     <AuthProvider>
+ <Router>
           <Header/>
           <Switch>
             <Route path="/home">
@@ -21,14 +25,17 @@ function App() {
             <Route path="/login">
               <Login />
             </Route>
-            <Route path="/book/:bedType">
+            <Privet path="/book/:bedType">
               <Book />
-            </Route>
+            </Privet>
             <Route exact path="/">
               <Home />
             </Route>
           </Switch>
       </Router>
+     </AuthProvider>
+       
+      
   );
 }
 

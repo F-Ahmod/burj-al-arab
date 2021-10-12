@@ -1,0 +1,122 @@
+[
+    {
+      "title": "Standard Single Room",
+      "description": "Standard Single Rooms are designed in open -concept living area and have many facilities.",
+      "imgUrl": "https://cdn.jumeirah.com/-/mediadh/dh/hospitality/jumeirah/offers/offer-images/burj-al-arab-presidential-suite-living-room-4-hero.jpg",
+      "bed": 1,
+      "capacity": 1,
+      "bedType": "Single",
+      "avatar": "S",
+      "price": 1194
+    },
+    {
+      "title": "Couple Power Room",
+      "description": "Superior Double Rooms are perfectly equipped for traveling couples or friends.",
+      "imgUrl": "https://cdn.jumeirah.com/-/mediadh/dh/hospitality/jumeirah/offers/offer-images/burj-al-arab-royal-suite-staircase-5-hero.jpg",
+      "bed": 1,
+      "capacity": 2,
+      "bedType": "Double",
+      "avatar": "D",
+      "price": 1649
+    },
+    {
+      "title": "Duble sweets Capacity Room",
+      "description": " Have lots of in-room facilities and are designed in open-concept living area.",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-yFZYkKlTDqKEJ4Q9Lt9epC-Jtwdd7VpsFJaMN67u04C7OIF7mhHmRa3VFznfQj1syUs&usqp=CAU",
+      "bed": 2,
+      "capacity": 4,
+      "bedType": "Family",
+      "avatar": "F",
+      "price": 999
+    },
+    {
+      "title": "Family Capacity Room",
+      "description": " Have lots of in-room facilities and are designed in open-concept living area.",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToizKI-a-wZ612Odpb4qEfNVToyF70wlUlNndaQMxeWspKx4jkgnzrERhRgK2JffDXu0E&usqp=CAU",
+      "bed": 2,
+      "capacity": 4,
+      "bedType": "single",
+      "avatar": "F",
+      "price": 499
+    },
+    {
+      "title": "Studio Room",
+      "description": " Have lots of in-room facilities and are designed in open-concept living area.",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXwq_x_5lM-gDjwfAlbJoRCgLV-q3GPwE9JcBMown4_nwim-x-1CAFhBsZgule7I8X38g&usqp=CAU",
+      "bed": 2,
+      "capacity": 4,
+      "bedType": "Family",
+      "avatar": "F",
+      "price": 619
+    },
+    {
+      "title": "Suite couple Room",
+      "description": " Have lots of in-room facilities and are designed in open-concept living area.",
+      "imgUrl": "https://www.bestofathens.gr/sites/default/files/styles/image-article/public/fantastic_hotel_room.jpg?itok=ifvHiDvY",
+      "bed": 2,
+      "capacity": 4,
+      "bedType": "Family",
+      "avatar": "F",
+      "price": 544
+    },
+    {
+      "title": "single Capacity Room",
+      "description": " Have lots of in-room facilities and are designed in open-concept living area.",
+      "imgUrl": "https://maashaktitours.com/wp-content/uploads/2019/02/5-Star-room.png",
+      "bed": 2,
+      "capacity": 4,
+      "bedType": "Family",
+      "avatar": "F",
+      "price": 677
+    },
+    {
+      "title": "Quad: A room assigned to four people",
+      "description": " Have lots of in-room facilities and are designed in open-concept living area.",
+      "imgUrl": "https://www.ggrasia.com/wp-content/uploads/2017/11/Hotel-room-Jai-Alai-e1511487675906.jpg",
+      "bed": 2,
+      "capacity": 4,
+      "bedType": "Family",
+      "avatar": "F",
+      "price": 929
+    },
+    {
+      "title": "Queen: A room with a queen-sized bed",
+      "description": " Have lots of in-room facilities and are designed in open-concept living area.",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEB4ax_49Nae4Hviwz2ftOAhEpYSRa5QB1veHnCA3o9B6EDTQNGIkIASy35zV8dkyr82o&usqp=CAU",
+      "bed": 2,
+      "capacity": 4,
+      "bedType": "Family",
+      "avatar": "F",
+      "price": 321
+    },
+    {
+      "title": "Queen: A room with a queen-sized bed",
+      "description": " Have lots of in-room facilities and are designed in open-concept living area.",
+      "imgUrl": "https://media.radissonhotels.net/image/radisson-blu-plaza-hotel-mysore/guestroom/16256-114090-f63664696_3xl.jpg?impolicy=Card",
+      "bed": 2,
+      "capacity": 4,
+      "bedType": "Family",
+      "avatar": "F",
+      "price": 699
+    },
+    {
+      "title": "King: A room with a king-sized bed.",
+      "description": " Have lots of in-room facilities and are designed in open-concept living area.",
+      "imgUrl": "https://hospitality-school.com/wp-content/uploads/2009/12/hotel-room.jpg",
+      "bed": 2,
+      "capacity": 4,
+      "bedType": "Family",
+      "avatar": "F",
+      "price": 654
+    },
+    {
+      "title": "Twin: A room with two beds",
+      "description": " Have lots of in-room facilities and are designed in open-concept living area.",
+      "imgUrl": "https://images2.minutemediacdn.com/image/upload/c_crop,h_1191,w_2121,x_0,y_223/f_auto,q_auto,w_1100/v1555272928/shape/mentalfloss/50569-istock-486178472.jpg",
+      "bed": 2,
+      "capacity": 4,
+      "bedType": "Family",
+      "avatar": "F",
+      "price": 764
+    }
+  ]

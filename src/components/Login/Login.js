@@ -1,10 +1,19 @@
-import React, { useContext } from 'react';
+import React from 'react';
+import useAuth from '../../Hooks/useAuth';
+
+
+
 
 
 const Login = () => {
+  const {singinwithgoogle}=useAuth();
     return (
-        <div>
-            <h1>This is Login</h1>
+        <div className="d-flex justify-content-center mt-4">
+            
+            <form>
+            <h3>Please login With Your Google Account</h3>
+            <input  className="bg-info w-50 fs-5 rounded"  onClick={singinwithgoogle} type="button" value="Sing with google" />
+            </form>    
         </div>
     );
 };
